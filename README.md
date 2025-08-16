@@ -1,4 +1,4 @@
-# Cute Pastel Calculator
+# Cute Calculator
 
 This is a cute pastel calculator built with HTML, CSS, and JavaScript.  
 
