@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="mascot">
+  <img src="chibi.png" alt="mascot" />
+</div>
+  <div class="card">
+    <div class="topbar">
+      <div class="brand">cute calc</div>
+      <div class="theme">
+        theme:
+        <select id="theme">
+          <option value="cotton">cotton candy</option>
+          <option value="sky">sky day</option>
+          <option value="mint">mint mochi</option>
+          <option value="peach">peach milk</option>
+          <option value="lavender">lavender haze</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="screen">
+      <div class="expr" id="expr"></div>
+      <div class="value" id="value">0</div>
+    </div>
+
+    <div class="grid" id="keys">
+      <button class="danger" data-k="C">AC</button>
+      <button class="danger" data-k="DEL">DEL</button>
+      <button class="op" data-k="%">%</button>
+      <button class="op" data-k="/">÷</button>
+
+      <button data-k="7">7</button>
+      <button data-k="8">8</button>
+      <button data-k="9">9</button>
+      <button class="op" data-k="*">×</button>
+
+      <button data-k="4">4</button>
+      <button data-k="5">5</button>
+      <button data-k="6">6</button>
+      <button class="op" data-k="-">−</button>
+
+      <button data-k="1">1</button>
+      <button data-k="2">2</button>
+      <button data-k="3">3</button>
+      <button class="op" data-k="+">+</button>
+
+      <button data-k="0">0</button>
+      <button data-k=".">·</button>
+      <button class="eq" data-k="=">=</button>
+    </div>
+  </div>
+
+  <footer>✨press keys on your keyboard too ✨</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
