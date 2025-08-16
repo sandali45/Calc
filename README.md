@@ -1,5 +1,7 @@
-#Calculator ✿
+## Calculator ✿
 
+[Check out the Calculator!](https://sandali45.github.io/Calc/)
+ 
 This is a  calculator built with HTML, CSS, and JavaScript.  
 
 - Supports themes: cotton candy, sky day, mint mochi, peach milk, lavender haze  
